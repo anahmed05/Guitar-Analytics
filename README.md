@@ -1,4 +1,4 @@
-# Guitar Analytics: How Many Songs Can You Actually Play?
+# Guitar Analytics: How Many Songs can you Actually Play?
 
 I've played guitar for over 10 years, and one thing I noticed early on is that a ton of popular songs use the same handful of chord shapes. Most beginners don't figure that out until much later, so they end up learning chords in a random order and burning out before it pays off.
 
