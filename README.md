@@ -1,4 +1,4 @@
-# Guitar Analytics: How Many Songs Can You Actually Play?
+# Guitar Chord Coverage Analysis: How Many Songs Can You Actually Play?
 
 I've always had a passion for music, and I've been playing guitar for over 12 years. When I was starting out, learning a new song felt like starting from scratch every time. It took me a while to realize that a huge number of songs use the same few chords, often in the same order. Once that clicked, picking up new songs got a lot easier.
 
