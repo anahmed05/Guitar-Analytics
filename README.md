@@ -1,8 +1,8 @@
-# Guitar Analytics: How Many Songs can you Actually Play?
+# Guitar Analytics: How Many Songs Can You Actually Play?
 
-I've played guitar for over 10 years, and one thing I noticed early on is that a ton of popular songs use the same handful of chord shapes. Most beginners don't figure that out until much later, so they end up learning chords in a random order and burning out before it pays off.
+I've always had a passion for music, and I've been playing guitar for over 12 years. When I was starting out, learning a new song felt like starting from scratch every time. It took me a while to realize that a huge number of songs use the same few chords, often in the same order. Once that clicked, picking up new songs got a lot easier.
 
-I wanted to test that with data. Using chord charts for **668,858 songs**, I looked at three questions:
+I wanted to see if the data backs that up, and whether there's a smarter way for beginners to learn. Using chord charts for **668,858 songs**, I looked at three questions:
 
 1. If you learn chords in the smartest possible order, how many songs can you play after each one?
 2. How much does a capo change that, since it lets the same shapes play songs in different keys?
@@ -37,7 +37,7 @@ The famous "4 chord song" loop (G – D – Em – C, in any key) is real: it ap
 
 **A note on the capo model.** My first version optimized purely for song count, and it told beginners to learn Bb, Eb, and Bbm shapes, which no guitar teacher would ever recommend. The math was right but the answer was useless. Limiting it to open shapes gave a realistic order (C, G, D, Em, Am, A, E, Dm) that matches how people actually learn.
 
-**Limitations.** Chords are simplified to major or minor, so a song full of 7th chords counts the same as one without them. Key detection uses a simple rule (pick the key where the most chords fit), which can misread songs that change key. The data comes from user-submitted chord charts, so it reflects what people choose to tab, not a random sample of all music.
+**Limitations.** Chords are simplified to major or minor, so a song full of 7th chords counts the same as one without them. You can see this in the results: jazz came out with 16% of songs using only G, C, D, and Em, slightly more than pop, which doesn't match how jazz actually sounds. Simplifying `Cmaj7` to `C` strips out exactly the complexity that defines the genre. Key detection uses a simple rule (pick the key where the most chords fit), which can misread songs that change key. The data comes from user-submitted chord charts, so it reflects what people choose to tab, not a random sample of all music.
 
 ## Run it yourself
 
