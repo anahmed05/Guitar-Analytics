@@ -1,0 +1,7 @@
+# Dataset is too big for GitHub (download it separately, see README)
+chordonomicon*.csv
+
+# Python / editor clutter
+__pycache__/
+.venv/
+.vscode/

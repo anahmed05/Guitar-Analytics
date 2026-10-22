@@ -1,0 +1,9 @@
+step,chord_added,chords_known,songs_playable,pct_playable,shape_added,shapes_known,songs_playable_capo,pct_playable_capo,capo_gain_pts
+1,G,G,0,0.0,C,C,0,0.0,0.0
+2,C,C G,0,0.0,G,C G,0,0.0,0.0
+3,D,C D G,11753,1.8,D,C D G,36954,5.5,3.7
+4,Em,C D Em G,39257,5.9,Em,C D Em G,105344,15.7,9.8
+5,Am,Am C D Em G,68407,10.2,Am,Am C D Em G,166720,24.9,14.7
+6,F,Am C D Em F G,127464,19.1,A,A Am C D Em G,208418,31.2,12.1
+7,A,A Am C D Em F G,167024,25.0,E,A Am C D E Em G,240875,36.0,11.0
+8,Bm,A Am Bm C D Em F G,232590,34.8,Dm,A Am C D Dm E Em G,258077,38.6,3.8
